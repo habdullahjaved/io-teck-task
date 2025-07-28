@@ -21,6 +21,12 @@ const config: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "io-teck-task.vercel.app",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "placehold.co",
         port: "",
         pathname: "/**",
@@ -29,7 +35,7 @@ const config: NextConfig = {
   },
 
   eslint: {
-    ignoreDuringBuilds: true, // 🛡️ This allows build to pass even if ESLint has errors
+    ignoreDuringBuilds: true,
   },
 };
 
