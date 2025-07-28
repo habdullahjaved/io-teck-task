@@ -37,6 +37,10 @@ const config: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  i18n: {
+    locales: ["en", "ar"],
+    defaultLocale: "en",
+  },
 };
 
 export default withNextIntl(config);
