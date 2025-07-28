@@ -35,7 +35,7 @@ export default function AboutPage() {
               className="text-xl font-semibold mb-2"
               style={{ color: "#4b2515" }}
             >
-              {t("valuesTitle", { default: "Our Values" })}
+              {/* {t("values", { default: "Our Values" })} */}
             </h3>
             <ul className="list-disc list-inside text-gray-700 mt-2 space-y-1">
               {t.raw("values").map((value: string, i: number) => (

@@ -1,0 +1,137 @@
+{
+  "HomePage": {
+    "title": "Welcome to our site",
+    "description": "This is the English version of the site."
+  },
+  "HeroSection": {
+    "slide1": {
+      "title": "Lorem Ipsum",
+      "description": "Dummy text of the printing and typesetting industry.",
+      "ctatext": "Read More",
+      "ctalink": "/about-us"
+    },
+    "slide2": {
+      "title": "Welcome Video",
+      "description": "Experience our brand in motion.",
+      "ctatext": "Watch Now",
+      "ctalink": "/video"
+    }
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "team": "Team",
+    "legalConsultation": "Legal Consultation Services",
+    "foreignInvestment": "Foreign Investment Services",
+    "contracts": "Contracts",
+    "arbitration": "Arbitration",
+    "contact": "Contact",
+    "book": "Book Appointment",
+    "searchPlaceholder": "Search…"
+  },
+  "Testimonials": {
+    "title": "What our clients are saying",
+    "description": "Our clients range from individual investors, to local, international as well as Fortune 500 companies.",
+    "items": [
+      {
+        "name": "Mohammed Saif",
+        "designation": "CEO",
+        "company": "Al Noor Holdings",
+        "comment": "With the help of the hospitable staff of Al Safar and Partners I was able to get my work done without any hassle. The help I received helped me a great deal to overcome the issues that I faced. I was always updated about my case and my queries never went unanswered.",
+        "image": "/images/mohammed-saif.png"
+      },
+      {
+        "name": "Sarah Johnson",
+        "designation": "Marketing Director",
+        "company": "GlobalReach Ltd.",
+        "comment": "Professional, efficient, and truly reliable. The team exceeded our expectations. Highly recommended!",
+        "image": "/images/sarah-johnson.png"
+      },
+      {
+        "name": "Ahmed Al Falasi",
+        "designation": "Operations Manager",
+        "company": "Emirates Corp.",
+        "comment": "Excellent customer service and outstanding support throughout. I am very impressed with the results.",
+        "image": "/images/ahmed-alfalasi.png"
+      }
+    ]
+  },
+  "footer": {
+    "about": "About",
+    "strategy": "Our Strategy",
+    "advantages": "Our Advantages",
+    "social": "Social Responsibility",
+    "services": "Our Services",
+    "contacts": "Contacts",
+    "subscribe": "Subscribe",
+    "submitting": "Submitting...",
+    "emailPlaceholder": "Email",
+    "rights": "© 2024. All rights reserved.",
+
+    "invalidEmail": "Please enter a valid email address.",
+    "requiredEmail": "Email is required.",
+    "successMessage": "Thank you! You’ve been subscribed successfully.",
+    "serverError": "Something went wrong on the server. Please try again.",
+    "networkError": "Network error. Please check your connection."
+  },
+  "IconLink": {
+    "call": "Call",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "intro": "We are a trusted legal firm committed to delivering expert solutions for individuals, corporations, and organizations. With a team of experienced professionals, we offer strategic advice tailored to your unique needs.",
+    "mission": "Our mission is to provide reliable legal guidance, ensuring compliance and success for our clients.",
+    "vision": "To be a leading law firm recognized for integrity, excellence, and client satisfaction.",
+    "values": [
+      "Client-Centric Approach",
+      "Integrity and Transparency",
+      "Expertise and Innovation"
+    ],
+    "cta": {
+      "text": "Discover Our Services",
+      "link": "/services"
+    }
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "description": "We’re here to assist you. Whether you have inquiries about our services or need legal consultation, feel free to reach out.",
+    "address": "123 Legal Street, Business Bay, Dubai, UAE",
+    "phone": "+971 50 123 4567",
+    "email": "info@yourfirm.com",
+    "workingHours": "Sunday - Thursday: 9 AM - 6 PM",
+    "formTitle": "Send Us a Message",
+    "formFields": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Submit"
+    },
+    "successMessage": "Your message has been sent successfully.",
+    "errorMessage": "An error occurred. Please try again later."
+  },
+  "BlogPage": {
+    "title": "Our Blog",
+    "intro": "Explore expert insights, legal news, and articles from our team.",
+    "posts": [
+      {
+        "title": "Understanding Corporate Governance",
+        "excerpt": "Corporate governance is the framework of rules and practices ensuring transparency and accountability...",
+        "slug": "understanding-corporate-governance"
+      },
+      {
+        "title": "Top 5 Tips for Foreign Investors in UAE",
+        "excerpt": "Setting up a business in the UAE can be simplified with the right legal support...",
+        "slug": "tips-for-foreign-investors"
+      },
+      {
+        "title": "The Role of Arbitration in Dispute Resolution",
+        "excerpt": "Arbitration is a preferred method for resolving commercial disputes efficiently...",
+        "slug": "role-of-arbitration"
+      }
+    ]
+  }
+}
