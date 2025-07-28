@@ -1,5 +1,3 @@
-import fs from "fs";
-import path from "path";
 import { hasLocale } from "next-intl";
 import { getRequestConfig } from "next-intl/server";
 import { routing } from "./routing";
@@ -10,15 +8,13 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  const filePath = path.resolve(process.cwd(), "messages", `${locale}.json`);
-
   let messages: Record<string, any> = {};
 
   try {
-    const fileContent = fs.readFileSync(filePath, "utf-8");
-    messages = JSON.parse(fileContent);
+    // ✅ Use dynamic import instead of fs
+    messages = (await import(`../messages/${locale}.json`)).default;
   } catch (e) {
-    console.error(`❌ Failed to load messages from ${filePath}`, e);
+    console.error(`❌ Failed to load messages for locale "${locale}"`, e);
   }
 
   return {
