@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_menu_menu_items",
+  "info": {
+    "displayName": "menu.menu_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "is_dropdown": {
+      "type": "boolean"
+    },
+    "dropdown_services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

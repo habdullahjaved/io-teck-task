@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_hero_sliders",
+  "info": {
+    "displayName": "HeroSlider",
+    "icon": "play",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "mediagallery": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "ctatext": {
+      "type": "string"
+    },
+    "ctaurl": {
+      "type": "string"
+    }
+  }
+}

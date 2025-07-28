@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tm-alnaimi",
+    "slug": "ahmad-al-naimi",
+    "name": "Ahmad Al Naimi",
+    "role": "Managing Partner",
+    "bio": "20+ years experience in corporate and commercial law.",
+    "image": "/images/team/ahmad.jpg",
+    "keywords": ["corporate", "commercial", "governance"]
+  },
+  {
+    "id": "tm-fahd",
+    "slug": "fahd-al-otaibi",
+    "name": "Fahd Al-Otaibi",
+    "role": "Senior Associate",
+    "bio": "Litigation specialist with a strong arbitration record.",
+    "image": "/images/team/fahd.jpg",
+    "keywords": ["litigation", "arbitration", "courts"]
+  },
+  {
+    "id": "tm-sara",
+    "slug": "sara-al-shehri",
+    "name": "Sara Al-Shehri",
+    "role": "IP Counsel",
+    "bio": "Advises on trademarks, patents, and licensing.",
+    "image": "/images/team/sara.jpg",
+    "keywords": ["ip", "trademark", "patent"]
+  }
+]
